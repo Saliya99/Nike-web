@@ -1,0 +1,515 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1 !important;
+}
+@font-face{
+    font-family: futura-bold;
+    src: url(../fonts/Futura\ Bold\ font.ttf);
+}
+@font-face{
+    font-family: futura-extra-bold;
+    src: url(../fonts/Futura\ Condensed\ Extra\ Bold.otf);
+}
+@font-face{
+    font-family: helvetica-bold;
+    src: url(../fonts/Helvetica\ Bold.ttf);
+}
+@font-face{
+    font-family: helvetica-medium;
+    src: url(../fonts/Helvetica-Medium_22487.ttf);
+}
+@font-face{
+    font-family: helveticaNeue-medium;
+    src: url(../fonts/HelveticaNeue-MediumCond.otf);
+}
+h4{
+    font-family: helveticaNeue-medium;
+}
+.head1{
+    width: 100%;
+    background: #111;
+    padding: 15px;
+    font-family:helvetica-medium; 
+}
+
+.head1 .container{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head1 .container ul{
+    list-style: none;
+    text-decoration: none;
+    color: #ddd;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    padding: 0 !important;
+    margin: 0 !important;
+    cursor: pointer;
+}
+
+.head1 .plus{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 1fr);
+    grid-column-gap: 4em;
+}
+
+.head2 .logo img{
+    width:100%; 
+}
+
+.head1 .account{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 1fr);
+    grid-column-gap: 4em;
+}
+
+.head2{
+    width: 100%;
+    background: #e9ecef;
+    font-family: futura-bold;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.head2 .nike{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.head2 .stellarnav ul{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.menu{
+    display: grid;
+    list-style: none;
+    grid-auto-flow: column;
+    grid-column-gap: 2.5em;
+    font-size: 1.2em;
+    align-items: center; 
+}
+.stellarnav ul ul{
+    font-family: helveticaNeue-medium !important;
+    font-size: .8em !important;
+}
+.stellarnav.dark .icon-close:after{
+    border-color: #000 !important;
+}
+.stellarnav.dark .icon-close:before{
+    border-color: #000 !important;
+}
+.stellarnav.dark a.dd-toggle .icon-plus:before{
+    border-color: #333 !important;
+}
+.stellarnav.dark a.dd-toggle .icon-plus:after{
+    border-color: #333 !important;
+}
+.menu{
+    z-index: 111;
+}
+
+
+.banner{
+    width: 100%;
+    height: auto;
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+
+.catagories .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(8em, 1fr));
+    grid-gap: 20px;
+    padding: 30px;
+
+}
+
+.catagories .item{
+    display: grid;
+    margin: auto;
+    align-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+.carousel-caption{
+    color: #ddd;
+    top: 5em;
+}
+.carousel-caption p{
+    font-family: helvetica-medium; 
+}
+.carousel-caption h3{
+    font-family: futura-extra-bold;
+}
+
+.shop{
+    margin-top: 20em;
+}
+
+.bg-light{
+    border-radius: 100px !important;
+    padding: 10px 20px !important;
+    font-family: helvetica-medium !important;
+}
+
+
+
+.catagories .info{
+    display: grid;
+    justify-content: center;
+    text-align:  center;
+}
+
+.catagories .box .classic{
+    background-color: #EC383D;
+}
+.catagories .box .running{
+    background-color: #A9A9A9;
+}
+.catagories .box .training{
+    background-color: #E4E8EF;
+}
+.catagories .box .basketball{
+    background-color: #1096F2;
+}
+
+.box .classic img{
+    position: relative;
+    right: 1.8em;
+    width: 210px;
+    transition: all .3s ease-in;
+}
+.box img:hover{
+    transform: scale(1.1);
+}
+.box .running img{
+    position: relative;
+    right: 1.8em;
+    width: 210px;
+    transition: all .3s ease-in;
+}
+.box .training img{
+    position: relative;
+    right: 1.8em;
+    width: 210px;
+    transition: all .3s ease-in;
+}
+.box .basketball img{
+    position: relative;
+    right: 1.8em;
+    width: 210px;
+    transition: all .3s ease-in;
+}
+
+.box .info{
+    margin-top: 2em;
+}
+.collection .head{
+    font-family: helveticaNeue-medium;
+
+}
+.collection .product{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+    grid-gap: 15px;
+    padding: 15px;
+
+}
+
+
+.product .coll{
+    width: 100%;
+    height: auto;
+}
+
+.product img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.owl-prev{
+    left: -30px;
+}
+.owl-next{
+    right: -30px;
+}
+.owl-prev, .owl-next{
+    position: absolute;
+    top: 30%
+}
+.owl-prev span, .owl-next span{
+    font-size: 60px;
+    color: #ccc;
+}
+
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot:focus{
+    outline: none;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover{
+    background: none !important;
+}
+
+.ad{
+    height: auto;
+}
+
+.ad img{
+    width: 100%;
+    height: auto;
+}
+.plus-member{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+}
+.plus-member .cap{
+    grid-column: span 1;
+    grid-row: span 2;
+    padding: 5em 5em;
+    background: #000;
+    color: #E4E8EF;
+}
+.cap h3{
+    font-family: futura-bold;
+}
+.cap button{
+    border-radius: 50px;
+    margin-top: 2em;
+}
+.plus-member img{
+    width: 100%;
+}
+.plus-member img:hover{
+    opacity: .5;
+    transition: all .5s ease-in;
+}
+
+.plus-info{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+    grid-gap: 20px;
+    padding-top: 2em;
+    width: 100%;
+    height: 300px;
+}
+.plus-info .box{
+    text-align: center;
+    padding: 10px;
+    border-radius: .5em;
+}
+.plus-info .box img{
+    width: 20%;
+}
+.membership {
+    min-height: 450px;
+}
+.membership .card:hover{
+    -webkit-box-shadow: 0 7px 21px -10px darkgray;
+    -moz-box-shadow: 0 7px 21px -10px darkgray;
+    box-shadow: 0 7px 21px -10px darkgray;
+    cursor: pointer;
+}
+.rewards .reward-info{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+}
+.reward-info .download{
+    width: 100%;
+    height: auto;
+}
+
+.download .btn{
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+.rewards img{
+    width: 100%;
+}
+
+.access .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(3em, 1fr));
+    grid-gap: 3em;
+    text-align: center;
+    align-items: center;
+    padding: 3em;
+}
+
+.access i{
+    font-size: 4em;
+    height: auto;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background: #111;
+    color: #ccc !important;
+    cursor: pointer;
+    font-family: helveticaNeue-medium !important;
+}
+footer a{
+    color: #bbb !important;
+    line-height: 2;
+}
+footer a:hover{
+    color: #ddd !important;
+    text-decoration: none;
+}
+.nikeplus .join .btn{
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+
+.card a{
+    text-decoration: none;
+    color: #333;
+} 
+.card a:hover{
+    text-decoration: none;
+    color: #333;
+}                                           
+
+@media only screen and (max-width: 767px) {
+    .head1{
+        display: none;
+    }
+    .icon{
+        display: none !important;
+    }
+
+    .head2 .nike{
+        padding: .2em !important;
+    }
+
+    .stellarnav.mobile > ul > li{
+        font-size: .8em !important;
+    }
+    .banner{
+        height: auto;
+    }
+    .banner img{
+        height: 100%;
+    }
+    .catagories .item{
+        width: 100px;
+        height: 100px;
+    }
+
+    .carousel-caption{
+        display: none;
+    }
+
+    .box .item img{
+        width: 150px;
+    }
+    .membership {
+        min-height: auto;
+    }
+    .access .container{
+        padding: 2em;
+    }
+    .owl-prev{
+        left: -20px;
+    }
+    .owl-next{
+        right: -20px;
+    }
+    .rewards{
+        margin: 0 !important;
+    }
+    .nikeplus .join{
+        display: none;
+    }
+    .download{
+        margin: auto !important;
+        text-align: center;
+    }
+    .download button{
+        margin-bottom: 2em;
+    }
+    .download p{
+        padding: 0 !important;
+    }
+    .footer-copyright a{
+        padding: 0 1em !important;
+    }
+    .plus-member .cap{
+        grid-column: span 12;
+        
+    }
+    .catagories .container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width:360px) and (max-width:415px) {
+    .access .container{
+        grid-template-columns: repeat(auto-fit, minmax(.5em, 1fr));
+        grid-column-gap: 1em;
+    }
+    .access i{
+        font-size: 3em;
+    }
+    .access p{
+        font-size: .8em;
+    }
+    .membership h4{
+        font-size: 1.2em !important;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    .icon {
+        display: none !important;
+    }
+    .banner{
+        height: auto;
+    }
+    .banner img{
+        height: 100%;
+    }
+    .catagories .item{
+        width: 100px;
+        height: 100px;
+    }
+
+    .box .item img{
+        width: 150px;
+    }
+    .collection .product{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(9em, 1fr));
+        grid-gap: 20px;
+        padding: 20px;
+    }
+    .plus-info{
+        grid-template-columns: repeat(auto-fit, minmax(8em, 1fr));
+    }
+    .rewards .download{
+        margin: 0 !important;
+    }
+    .box small{
+        line-height: .5 !important;
+    }
+    .plus-member .cap{
+        padding: 2em;
+    }
+
+};
+
+

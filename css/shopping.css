@@ -1,0 +1,343 @@
+.product-viewbody{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: futura-bold;
+    src: url(../fonts/Futura\ Bold\ font.ttf);
+}
+@font-face{
+    font-family: futura-extra-bold;
+    src: url(../fonts/Futura\ Condensed\ Extra\ Bold.otf);
+}
+@font-face{
+    font-family: helvetica-bold;
+    src: url(../fonts/Helvetica\ Bold.ttf);
+}
+@font-face{
+    font-family: helvetica-medium;
+    src: url(../fonts/Helvetica-Medium_22487.ttf);
+}
+@font-face{
+    font-family: helveticaNeue-medium;
+    src: url(../fonts/HelveticaNeue-MediumCond.otf);
+}
+
+
+
+.head1{
+    width: 100%;
+    background: #111;
+    padding: 15px;
+    font-family:helvetica-medium; 
+}
+
+.head1 .container{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head1 .container ul{
+    list-style: none;
+    text-decoration: none;
+    color: #ddd;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    padding: 0 !important;
+    margin: 0 !important;
+    cursor: pointer;
+}
+
+.head1 .plus{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 1fr);
+    grid-column-gap: 4em;
+}
+
+.head2 .logo img{
+    width:100%; 
+}
+
+.head1 .account{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 1fr);
+    grid-column-gap: 4em;
+}
+
+.head2{
+    width: 100%;
+    background: #e9ecef;
+    font-family: futura-bold;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.head2 .nike{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.head2 .stellarnav ul{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.menu{
+    display: grid;
+    list-style: none;
+    grid-auto-flow: column;
+    grid-column-gap: 2.5em;
+    font-size: 1.2em;
+    align-items: center; 
+}
+.stellarnav ul ul{
+    font-family: helveticaNeue-medium !important;
+    font-size: .8em !important;
+}
+.stellarnav.dark .icon-close:after{
+    border-color: #000 !important;
+}
+.stellarnav.dark .icon-close:before{
+    border-color: #000 !important;
+}
+.stellarnav.dark a.dd-toggle .icon-plus:before{
+    border-color: #333 !important;
+}
+.stellarnav.dark a.dd-toggle .icon-plus:after{
+    border-color: #333 !important;
+}
+.menu{
+    z-index: 111;
+}
+.offers{
+    text-align: center;
+    font-family: futura-bold;
+    border: 0.5px solid #999; 
+}
+.offers h4{
+    margin: 0 !important;
+    padding: 0.6em;
+}
+
+.cart{
+    display: grid;
+    grid-template-columns:2fr 1fr;
+    grid-gap: 1em;
+}
+.product-view{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap: 1em;
+    height: fit-content;
+}
+.product-display{
+    width: 100%;
+    background: #999;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.product-display img{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.product-display img:hover{
+    transition: all 0.5s ease-in;
+    transform: scale(1.1);
+}
+.product-info{
+        overflow: auto;
+        height: 1350px !important;
+    }
+.label-1{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+
+}
+.label-2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(2em, 2em));
+    grid-gap: 0;
+    justify-content: left;
+    margin-top: 1em;
+}
+.label-3{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(2em, 6em));
+    grid-gap: 1em;
+    justify-content: left;
+}
+.product-color{
+    width: 100%;
+}
+.product-color img{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.size{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(2em, 4em));
+    grid-gap: 1.2em;
+    justify-content: left;
+    align-items: center;
+}
+.size .box{
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+    background: #F0F0F0;
+    justify-content: center;
+}
+.btn-dark, .btn-light{
+    width: 100%;
+    padding: 20px !important;
+    border-radius: 50px !important;
+    margin-top: 1.5em;
+}
+.btn-light{
+    background: #eaeaea !important;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .product-detail li{
+      margin-top: 1em;
+  }
+
+  .product-detail a{
+    text-decoration: none;
+    color: #333 !important;
+  }
+
+  .product-detail a:hover{
+      text-decoration: none;
+  }
+
+  .ad img{
+      width: 100%;
+  }
+  .ad-photos{
+      display: grid;
+      grid-auto-flow: column;
+      grid-gap: 1em;
+  }
+  .owl-prev{
+    left: -20px;
+}
+.owl-next{
+    right: -20px;
+}
+.owl-prev, .owl-next{
+    position: absolute;
+    top: 30%
+}
+.owl-prev span, .owl-next span{
+    font-size: 60px;
+    color: #ccc;
+}
+.owl-theme .owl-nav [class*='owl-']:hover{
+    background: none !important;
+}
+
+.owl-carousel{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+}
+
+.owl-item.active::after{
+    display: none !important; 
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background: #111;
+    color: #ccc !important;
+    cursor: pointer;
+    font-family: helveticaNeue-medium !important;
+}
+footer a{
+    color: #bbb !important;
+    line-height: 2;
+}
+footer a:hover{
+    color: #ddd !important;
+    text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .head1{
+        display: none;
+    }
+    .icon{
+        display: none !important;
+    }
+
+    .head2 .nike{
+        padding: .2em !important;
+    }
+
+    .stellarnav.mobile > ul > li{
+        font-size: .8em !important;
+    }
+    .cart{
+        grid-template-columns: none;
+    }
+    .product-info{
+        overflow: auto;
+        height: 500px !important;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    .icon {
+        display: none !important;
+    }
+    .product-view{
+        grid-template-columns: repeat(auto-fit, minmax(2em, 13em));
+    }
+}
+@media only screen and (min-width:1024px) and (max-width:1366px) {
+    .menu{
+        grid-column-gap: 1em;
+    }
+    .product-view{
+        grid-template-columns: repeat(auto-fit, minmax(2em, 18em));
+    }
+}

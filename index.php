@@ -1,0 +1,625 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike.com | Just Do It.</title>
+    <link rel="icon" href="https://img.icons8.com/ios-filled/100/000000/nike.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/stellarnav.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    
+    <header class="head1">
+        <div class="container">
+            <ul class="plus">
+                <li>NikePlus</li>
+                <li><img src="images/Icon/surface1.svg" alt="jordan"></li>
+            </ul>
+            <ul class="account">
+                <li>Help</li>
+                <li>Sri Lanka</li>
+                <li><a href="login.php"><button class="btn btn-light">JOIN NIKEPLUS</button></a></li>
+
+            </ul>
+        </div>
+    </header>
+    <header class="head2">
+        <div class="container">
+            <div class="stellarnav nike">
+                <div class="logo">
+                    <img src="images/Icon/icons8-nike.svg" alt="nike">
+                </div>
+                <ul class="menu">
+                    <li><a href="#">MEN</a>
+                        <ul>
+                            <li><a href="#">NEW RELEASE</a></li>
+                            <li><a href="#">SNKRS LAUNCH CALENDAR</a></li>
+                            <li><a href="#">NEW APPAREL</a></li>
+                            <li><a href="#">NIKE REACT</a></li>
+                            <li><a href="#">NIKELAB</a></li>
+                            <li><a href="#">SALE</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">WOMEN</a>
+                        <ul>
+                            <li><a href="#">NEW RELEASE</a></li>
+                            <li><a href="#">SNKRS LAUNCH CALENDAR</a></li>
+                            <li><a href="#">NEW APPAREL</a></li>
+                            <li><a href="#">NIKE REACT</a></li>
+                            <li><a href="#">NIKELAB</a></li>
+                            <li><a href="#">SALE</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">BOYS</a>
+                        <ul>
+                            <li><a href="#">NEW RELEASE</a></li>
+                            <li><a href="#">SNKRS LAUNCH CALENDAR</a></li>
+                            <li><a href="#">NEW APPAREL</a></li>
+                            <li><a href="#">NIKE REACT</a></li>
+                            <li><a href="#">NIKELAB</a></li>
+                            <li><a href="#">SALE</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">GIRLS</a>
+                        <ul>
+                            <li><a href="#">NEW RELEASE</a></li>
+                            <li><a href="#">SNKRS LAUNCH CALENDAR</a></li>
+                            <li><a href="#">NEW APPAREL</a></li>
+                            <li><a href="#">NIKE REACT</a></li>
+                            <li><a href="#">NIKELAB</a></li>
+                            <li><a href="#">SALE</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">COLLECTION</a>
+                        <ul>
+                            <li><a href="#">NEW RELEASE</a></li>
+                            <li><a href="#">SNKRS LAUNCH CALENDAR</a></li>
+                            <li><a href="#">NEW APPAREL</a></li>
+                            <li><a href="#">NIKE REACT</a></li>
+                            <li><a href="#">NIKELAB</a></li>
+                            <li><a href="#">SALE</a></li>
+                        </ul>
+                    </li>
+                    <li class="icon ml-5">
+                        <img src="https://img.icons8.com/ios-glyphs/30/000000/search.png">
+                    </li>
+                    <li class="icon">
+                        <img src="https://img.icons8.com/windows/32/000000/checked-user-male.png">
+                    </li>
+                    <li class="icon">
+                        <img src="https://img.icons8.com/windows/32/000000/shopping-bag.png">
+                    </li>
+                </ul>
+            </div> 
+        </div>
+    </header>
+
+    <section class="banner">
+        <div id="banner" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#banner" data-slide-to="0" class="active"></li>
+                <li data-target="#banner" data-slide-to="1"></li>
+                <li data-target="#banner" data-slide-to="2"></li>
+            </ul>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/slide.jpg" alt="">
+                  <div class="carousel-caption">
+                    <p>New From Nike Running</p>
+                    <h3>NIKE JOYRIDE</h3>
+                    <p>Thousands of tiny beads working hard so you don't have to</p>
+                    <div class="btn bg-light shop">SHOP NOW</div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="images/slide_2.jpg" alt="">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/slide_3.jpg" alt="">
+                </div><div class="carousel-item">
+                    <img src="images/slide_4.jpg" alt="">
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#banner" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#banner" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </section>
+
+    <section class="catagories mt-6">
+        <div class="container">
+            <div class="box">
+                <div class="item classic">
+                    <img  src="images/nike.png" alt="">
+                </div>
+                <div class="info">
+                    <p>Nike Classic</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="item running">
+                    <img src="images/Nike-Running.png" alt="">
+                </div>
+                <div class="info">
+                    <p>Nike Running</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="item training">
+                    <img src="images/nike-training.png" alt="">
+                </div>
+                <div class="info">
+                    <p>Nike Training</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="item basketball">
+                    <img src="images/nike-basketball.png" alt="">
+                </div>
+                <div class="info">
+                    <p>Nike Basketball</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- data-aos="slide-up" data-aos-duration="800" data-aos-easing="ease-in-out" -->
+    
+    
+    <sction class="collection mt-4">
+        <div class="container">
+            <h4 class="text-center head">NIKE COLLECTION</h4>
+            <div class="product">
+                <div class="coll">
+                    <img src="images/ezgif.com-resize.jpg" alt="">
+                    <p class="text-center pt-3">Nike Jordan</p>
+                </div>
+                <div class="coll">
+                    <img src="images/ezgif.com-resize (1).jpg" alt="">
+                    <p class="text-center pt-3">Nike Air Force</p>
+                </div> 
+                <div class="coll">
+                    <img src="images/ezgif.com-resize (2).jpg" alt="">
+                    <p class="text-center pt-3">Nike Air Max</p>
+                </div>  
+                <div class="coll">
+                    <img src="images/ezgif.com-resize (3).jpg" alt="">
+                    <p class="text-center pt-3">Nike Presto</p>
+                </div> 
+            </div>
+        </div>
+    </sction>
+
+    <section class="joyride mt-3 mb-5">
+      <div class="container">
+          <h4 class="text-center pb-3">NIKE JOYRIDE RUN FLYNIT</h4>
+          <div class="owl-carousel owl-theme">
+              <div class="ml-2 mr-2">
+                  <div class="card">
+                    <a href="product.html">
+                      <img src="images/oyhemtbkghuegy9gpo0i.webp" class="card-img-top">
+                      <div class="card-body">
+                          <h5 class="card-title">Nike Joyride Run Flynit</h5>
+                          <small>Men's Running Shoes</small>
+                          <p>14,000</p>
+                      </div>
+                    </a>
+                  </div>
+              </div>
+              <div class="ml-2 mr-2">
+                    <div class="card">
+                        <a href="product.html">
+                        <img src="images/zc5x1xceepbszkhwprvn.webp" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Nike Joyride Run Flynit</h5>
+                            <small>Women's Running Shoes</small>
+                            <p>14,000</p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="ml-2 mr-2">
+                    <div class="card">
+                        <a href="product.html">
+                        <img src="images/tevykvdspkyoctwlbgn3.webp" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Nike Joyride Run Flynit</h5>
+                            <small>Men's Running Shoes</small>
+                            <p>14,000</p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="ml-2 mr-2">
+                    <div class="card">
+                        <a href="product.html">
+                        <img src="images/btupe4zlwoxniikhqveb.webp" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Nike Joyride Run Flynit</h5>
+                            <small>Women's Running Shoes</small>
+                            <p>14,000</p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="ml-2 mr-2">
+                    <div class="card">
+                        <a href="product.html">
+                        <img src="images/jxsxecnorxm5ictph0ou.webp" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Nike Joyride Run Flynit</h5>
+                            <small>Men's Running Shoes</small>
+                            <p>14,000</p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="ml-2 mr-2">
+                    <div class="card">
+                        <a href="product.html">
+                        <img src="images/ymmq6yswyxlxycdzquoi.webp" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Nike Joyride Run Flynit</h5>
+                            <small>Women's Running Shoes</small>
+                            <p>14,000</p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="ml-2 mr-2">
+                    <div class="card">
+                        <a href="product.html">
+                        <img src="images/jxqsabkmsfvs96pjs7yt.webp" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Nike Joyride Run Flynit</h5>
+                            <small>Men's Running Shoes</small>
+                            <p>14,000</p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="ml-2 mr-2">
+                    <div class="card">
+                        <a href="product.html">
+                        <img src="images/c8zzavpobt59okvkazw2.webp" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Nike Joyride Run Flynit</h5>
+                            <small>Women's Running Shoes</small>
+                            <p>14,000</p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="ml-2 mr-2">
+                    <div class="card">
+                        <a href="product.html">
+                        <img src="images/awcgvayo4rwf4ovoz64m.webp" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Nike Joyride Run Flynit</h5>
+                            <small>Men's Running Shoes</small>
+                            <p>14,000</p>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+          </div>
+      </div>  
+    </section>
+
+    <section class="ad mb-5">
+        <img src="images/banner.jpg" alt="">
+    </section>
+            
+    <section class="air mt-3 mb-5">
+            <div class="container">
+                <h4 class="text-center pb-3">NIKE AIR MAX 97</h4>
+                <div class="owl-carousel owl-theme">
+                    <div class="ml-2 mr-2">
+                        <div class="card">
+                            <img src="images/gorfwjchoasrrzr1fggt.webp" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Nike Air Max 97</h5>
+                                <small>Men's Shoes</small>
+                                <p>14,000</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ml-2 mr-2">
+                          <div class="card">
+                              <img src="images/azmihba3pidhx72i7div.webp" class="card-img-top">
+                              <div class="card-body">
+                                  <h5 class="card-title">Nike Air Max 97</h5>
+                                  <small>Women's Shoes</small>
+                                  <p>14,000</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="ml-2 mr-2">
+                          <div class="card">
+                              <img src="images/pr22esptz5ng1lf9vj6q.webp" class="card-img-top">
+                              <div class="card-body">
+                                  <h5 class="card-title">Nike Air Max 97</h5>
+                                  <small>Men's Shoes</small>
+                                  <p>14,000</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="ml-2 mr-2">
+                          <div class="card">
+                              <img src="images/nex5fgeecvdhjrmbiiyl.webp" class="card-img-top">
+                              <div class="card-body">
+                                  <h5 class="card-title">Nike Air Max 97</h5>
+                                  <small>Women's Shoes</small>
+                                  <p>14,000</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="ml-2 mr-2">
+                          <div class="card">
+                              <img src="images/iddpiu9l2cwzvtw9lskv.webp" class="card-img-top">
+                              <div class="card-body">
+                                  <h5 class="card-title">Nike Air Max 97</h5>
+                                  <small>Men's Shoes</small>
+                                  <p>14,000</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="ml-2 mr-2">
+                          <div class="card">
+                              <img src="images/ubhdapuchmwv3nr602x8.webp" class="card-img-top">
+                              <div class="card-body">
+                                  <h5 class="card-title">Nike Air Max 97</h5>
+                                  <small>Women's Shoes</small>
+                                  <p>14,000</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="ml-2 mr-2">
+                          <div class="card">
+                              <img src="images/mmn31dp776mm7v7p3p8r.webp" class="card-img-top">
+                              <div class="card-body">
+                                  <h5 class="card-title">Nike Air Max 97</h5>
+                                  <small>Men's Shoes</small>
+                                  <p>14,000</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="ml-2 mr-2">
+                          <div class="card">
+                              <img src="images/t51yj7pama4kbjxexz14.webp" class="card-img-top">
+                              <div class="card-body">
+                                  <h5 class="card-title">Nike Air Max 97</h5>
+                                  <small>Women's Shoes</small>
+                                  <p>14,000</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="ml-2 mr-2">
+                          <div class="card">
+                              <img src="images/guhuebkkiaman8qve79t.webp" class="card-img-top">
+                              <div class="card-body">
+                                  <h5 class="card-title">Nike Air Max 97</h5>
+                                  <small>Men's Shoes</small>
+                                  <p>14,000</p>
+                              </div>
+                          </div>
+                      </div>
+                </div>
+            </div>  
+          </section>
+
+    <section class="nikeplus">
+        <div class="plus-member">
+            <div class="cap">
+                <h3>NIKEPLUS MEMBERSHIP</h3>
+                <p>Everything you need to win</p>
+                <button class="btn btn-light">JOIN NIKEPLUS</button>
+            </div>
+            <img src="images/plus_1.png">
+            <img src="images/plus_2.png">
+            <img src="images/plus_3.png">
+            <img src="images/plus_4.png">
+            <img src="images/plus_5.png">
+            <img src="images/plus_6.png">
+        </div>
+    </section>
+
+    <section class="membership">
+        <div class="container">
+            <h4 class="text-center head pt-5 pb-3">Join the greatest team in <br> sports to get the very best of Nike</h4>
+            <div class="card-deck">
+                <div class="card">
+                    <i class="material-icons m-auto p-2" style="font-size: 3em;">
+                        card_membership
+                    </i> 
+                    <div class="card-body text-center">
+                        <p class="card-text">Member Exclusive Products</p>
+                        <small>Get Early Access to our latest drops
+                            and member-only products.</small>
+                    </div> 
+                </div>
+                <div class="card">
+                    <i class="material-icons m-auto p-2" style="font-size: 3em;">
+                        cast_connected
+                    </i> 
+                    <div class="card-body text-center">
+                        <p class="card-text">Connect to Sport
+                            Anytime, Anywhere</p>
+                        <small>Access over 100 on-the-go workouts,
+                            weekly challenges and personalized
+                            training plans.</small>
+                    </div> 
+                </div>
+                <div class="card">
+                    <i class="material-icons m-auto p-2" style="font-size: 3em;">
+                        calendar_today
+                    </i>
+                    <div class="card-body text-center">
+                        <p class="card-text">One-of-a-kind
+                            Experiences</p>
+                        <small>From courtside to race day, get
+                            priority access to events and
+                            sessions you won't want to miss.</small>
+                    </div> 
+                </div>
+                <div class="card">
+                    <i class="material-icons m-auto p-2" style="font-size: 3em;">
+                        card_giftcard
+                    </i>
+                    <div class="card-body text-center">
+                        <p class="card-text">Birthday Reward</p>
+                        <small>We'll help you celebrate
+                            your big day with a special
+                            NikePlus Unlock.</small>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="rewards">
+        <div class="container">
+            <div class="reward-info">
+                <div class="download mt-5">
+                    <h4 class="pt-5 pb-3">Get rewarded for being active</h4>
+                    <p class=" pr-5">NikePlus unlock are how we'll inspire and reward you on the journey to being your best. Find them in your profile in the Nike App.</p>
+                    <p>Get the nike app</p>
+                    <button class="btn btn-dark ">DOWNLOAD</button>
+                </div>
+                <div>
+                    <img src="images/rewards-desktop.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="access">
+        <div class="container">
+            <div class="">
+                <img src="https://img.icons8.com/wired/64/000000/delivery.png">
+                <p class="pt-3">Free Delivery</p>
+            </div>
+            <div class="">
+                <img src="https://img.icons8.com/dotty/64/000000/price-tag.png">
+                <p class="pt-3">Client Discount</p>
+            </div>
+            <div class="">
+                <img src="https://img.icons8.com/wired/64/000000/shopping.png">
+                <p class="pt-3">Return of goods</p>
+            </div>
+            <div class="">
+                <img src="https://img.icons8.com/ios/64/000000/air-jordan.png">
+                <p class="pt-3">Many Brands</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="page-footer font-small indigo">
+
+
+    <div class="container text-center text-md-left">
+      <div class="row">
+        <div class="col-md-3 mx-auto">
+  
+          <p class="font-weight-bold text-uppercase mt-3 mb-3">GIFT CARDS</p>
+          <p class="font-weight-bold text-uppercase mt-3 mb-3">STUDENT DISCOUNT</p>
+          <p class="font-weight-bold text-uppercase mt-3 mb-3">MILITARY DISCOUNT</p>
+          <p class="font-weight-bold text-uppercase mt-3 mb-3">FIND A STORE</p>
+          <p class="font-weight-bold text-uppercase mt-3 mb-3">SIGN UP FOR EMAIL</p>
+          <p class="font-weight-bold text-uppercase mt-3 mb-3">BECOME A MEMBER</p>
+          <p class="font-weight-bold text-uppercase mt-3 mb-3">SITE FEEDBACK</p>
+
+        </div>
+
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+
+        <div class="col-md-3 mx-auto">
+  
+
+          <p class="font-weight-bold text-uppercase mt-3 mb-4">GET HELP</p>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Order status</a>
+            </li>
+            <li>
+              <a href="#!">Shipping and Delivery</a>
+            </li>
+            <li>
+              <a href="#!">Returns</a>
+            </li>
+            <li>
+              <a href="#!">Payment option</a>
+            </li>
+            <li>
+              <a href="#!">Contact us</a>
+            </li>
+          </ul>
+  
+        </div>
+
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+
+        <div class="col-md-3 mx-auto">
+  
+
+          <p class="font-weight-bold text-uppercase mt-3 mb-4">ABOUT NIKE</p>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">News</a>
+            </li>
+            <li>
+              <a href="#!">Careers</a>
+            </li>
+            <li>
+              <a href="#!">Investors</a>
+            </li>
+            <li>
+              <a href="#!">Purpose</a>
+            </li>
+            <li>
+                <a href="#">CA Supply chains act</a>
+            </li>
+          </ul>
+  
+        </div>
+
+      </div>
+    </div>
+    
+    <div class="footer-copyright text-center py-3">© 2019 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/">Nike, Inc. All Rights Reserved</a>
+    </div>
+
+  
+  </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/stellarnav.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
